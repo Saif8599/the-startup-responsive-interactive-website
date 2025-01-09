@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Listing Detail Page</title>
+  </head>
+  <body>
+    <!-- Media gallery -->
+    <section class="media-viewer" aria-label="gallery-title">
+      <div class="media-gallery">
+        <div class="media-main">
+          <img
+            class="main-image"
+            src="assets/images/houtlaan-1.jpg"
+            alt="Hoofdafbeelding pand Houtlaan"
+          />
+          <button class="share" aria-label="Share this image">
+            <svg class="share-icon"></svg>
+          </button>
+          <button class="like" aria-label="Like this image">
+            <svg class="like-icon"></svg>
+          </button>
+          <div class="position-indicator">
+            <span class="current-position">1</span>
+            /
+            <span class="total-images">10</span>
+          </div>
+        </div>
+
+        <div class="media-thumbnails">
+          <img src="assets/images/houtlaan-2.jpg" alt="Thumbnail 1" />
+          <img src="assets/images/houtlaan-3.jpg" alt="Thumbnail 2" />
+          <img src="assets/images/houtlaan-4.jpg" alt="Thumbnail 3" />
+          <img src="assets/images/houtlaan-5.jpg" alt="Thumbnail 4" />
+        </div>
+
+        <!-- Product thumbnails -->
+        <div class="product-thumbnails">
+          <!-- Product thumbnail left -->
+          <div class="thumbnail-left">
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="Plattegrond" />
+                <svg class="map-icon"></svg>
+              </div>
+              <button class="product-thumbnail-map">Plattegrond</button>
+            </div>
+
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="360 Photos" />
+                <svg class="360-icon"></svg>
+              </div>
+              <button class="product-thumbnail-360">360 Photos</button>
+            </div>
+
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="Video" />
+                <svg class="watch-icon"></svg>
+              </div>
+              <button class="product-thumbnail-video">Video</button>
+            </div>
+
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="3D Tour" />
+                <svg class="tour-icon"></svg>
+              </div>
+              <button class="product-thumbnail-tour">3D Tour</button>
+            </div>
+
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="Brochure" />
+                <svg class="download-icon"></svg>
+              </div>
+              <button class="product-thumbnail-brochure">Brochure</button>
+            </div>
+          </div>
+          <!-- Product thumbnail right -->
+          <div class="thumbnail-right">
+            <div class="product-thumbnail-item">
+              <div class="product-thumbnail-image">
+                <img src="https://placehold.co/100" alt="All Photos" />
+                <svg class="media-icon"></svg>
+              </div>
+              <button class="product-thumbnail-media">All media</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
