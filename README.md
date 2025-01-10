@@ -3,12 +3,13 @@ Ontwerp en maak een responsive website voor een startup.
 De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Media Viewer rebuild
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Overzicht van de Opdracht
+Het doel van deze opdracht is het herbouwen van de Media Viewer binnen de Listing Detail Page (LDP). De nadruk ligt op het ontwikkelen van een layout met semantische en toegankelijke HTML en CSS. JavaScript kan optioneel worden gebruikt, maar interactie van elementen is niet vereist.
+
+De layout moet ontworpen worden volgens een mobile-first aanpak, met responsive breakpoints voor mobiel, tablet en desktop.
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
