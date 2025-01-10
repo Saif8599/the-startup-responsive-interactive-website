@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "ProximaNova";
+  font-style: normal;
+  font-weight: normal;
+  src: url("assets/fonts/ProximaNova.otf") format("woff");
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+  /* body text */
+  --proximaNova: "ProximaNova";
+
+  /* Font sizes*/
+  --font-size-xl: 3em;
+  --font-size-l: 2em;
+  --font-size-m: 1em;
+  --font-size-s: 0.875em;
+
+  /* Font weight*/
+  --light: 400;
+  --normal: 500;
+  --bold: 600;
+
+  /* Primary colors */
+  --color-orange: #ff9b21;
+  --color-brown: #6a281c;
+  --color-white: #ffffff;
+  --color-off-white: #f8f0e6;
+  --color-light-blue: #e5f6ff;
+  --color-blue: #2a8fd8;
+
+  /* Secondary colors */
+  --color-dark-grey: #333333;
+  --color-bright-blue: #64c1ed;
+  --color-light-pink: #fde9eb;
+  --color-light-green: #ebf6e3;
+  --color-pink: #de737d;
+  --color-green: #599f7e;
+}
+
+/* Typography */
+h1 {
+  font-family: var(--proximaNova), sans-serif;
+  font-size: var(--font-size-l);
+  font-weight: var(--light);
+}
+
+h2 {
+  font-family: var(--proximaNova), sans-serif;
+  font-size: var(--font-size-m);
+  line-height: 1em;
+  margin-left: 0.25em;
+}
+
+h3 {
+  font-size: var(--font-size-m);
+  margin-top: 5px;
+}
+
+p {
+  font-family: var(--proximaNova), sans-serif;
+  font-size: var(--font-size-l);
+  line-height: 1em;
+}
