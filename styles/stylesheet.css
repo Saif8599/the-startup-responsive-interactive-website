@@ -45,14 +45,11 @@ body {
 h1 {
   font-family: var(--proximaNova), sans-serif;
   font-size: var(--font-size-l);
-  font-weight: var(--light);
 }
 
 h2 {
   font-family: var(--proximaNova), sans-serif;
   font-size: var(--font-size-m);
-  line-height: 1em;
-  margin-left: 0.25em;
 }
 
 h3 {
@@ -64,4 +61,29 @@ p {
   font-family: var(--proximaNova), sans-serif;
   font-size: var(--font-size-l);
   line-height: 1em;
+}
+
+a {
+  font-family: var(--proximaNova), sans-serif;
+  text-decoration: none;
+  color: var(--color-blue);
+}
+
+/* Container */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    max-width: 1000px;
+    padding: 0;
+  }
+}
+
+/* Header */
+header {
+  background-color: orange;
 }
