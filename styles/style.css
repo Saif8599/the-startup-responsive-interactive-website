@@ -48,6 +48,8 @@ nav {
 
 .nav-item li {
   display: flex;
+  flex-direction: column;
+  align-content: center;
   align-items: center;
   padding: 10px 5px;
   border-radius: 5px;
