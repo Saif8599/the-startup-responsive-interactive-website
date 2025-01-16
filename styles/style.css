@@ -132,7 +132,7 @@ nav {
   transform: scale(1.05);
 }
 
-.position-indicator {
+.positie-indicator {
   font-size: var(--font-size-m);
   background-color: black;
   opacity: 60%;
@@ -215,8 +215,8 @@ nav {
   color: black;
 }
 
-/* Property details */
-.property-details {
+/* Woninggegevens */
+.woning-gegevens {
   @media (max-width: 600px) {
     background-color: white;
     margin: 0 1em;
@@ -232,25 +232,25 @@ nav {
   color: var(--color-off-white);
 }
 
-.property-details h1 {
+.woning-gegevens h1 {
   font-size: var(--font-size-l);
   color: #333;
 }
 
-.property-details p {
+.woning-gegevens p {
   margin: 0.5rem 0;
   font-size: 1.1rem;
 }
 
 /* Property description */
-.property-description {
+.woning-beschrijving {
   font-size: var(--font-size-s);
   @media (max-width: 600px) {
     margin: 0 1em;
   }
 }
 
-.property-description h2 {
+.woning-beschrijving h2 {
   font-size: var(--font-size-l);
 }
 
@@ -265,7 +265,7 @@ footer {
   }
 }
 
-.footer-section {
+.footer-sectie {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
@@ -273,34 +273,34 @@ footer {
   padding: 0;
 }
 
-.footer-section h3 {
+.footer-sectie h3 {
   color: #f7b500;
   font-size: 1.2rem;
 }
 
-.footer-section ul {
+.footer-sectie ul {
   list-style-type: none;
   padding: 0;
 }
 
-.footer-section ul li a {
+.footer-sectie ul li a {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
 }
 
-.footer-section ul li a:hover {
+.footer-sectie ul li a:hover {
   color: #f7b500;
 }
 
-.footer-bottom {
+.footer-onder {
   border-top: 1px solid #555;
   text-align: center;
   padding-top: 1rem;
   margin-top: 1rem;
 }
 
-.footer-bottom ul {
+.footer-onder ul {
   list-style: none;
   padding: 0;
   display: flex;
@@ -308,11 +308,11 @@ footer {
   gap: 15px;
 }
 
-.footer-bottom a {
+.footer-onder a {
   color: white;
   text-decoration: none;
 }
 
-.footer-bottom a:hover {
+.footer-onder a:hover {
   color: #f7b500;
 }
