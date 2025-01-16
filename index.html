@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/stylesheet.css" />
-    <link rel="stylesheet" href="styles/style.css" />
-    <title>Listing Detail Page</title>
+    <link rel="stylesheet" href="/styles/stylesheet.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>Home Page</title>
   </head>
   <body>
     <header>
       <!-- Navbar -->
       <nav class="container">
-        <a href="#" class="logo"
+        <a href="/index.html" class="logo"
           ><svg
             width="88"
             height="32"
@@ -55,13 +55,13 @@
         </a>
         <ul class="menu">
           <li>
-            <a href="#kopen" aria-label="Kopen">Kopen</a>
+            <a href="#kopen">Kopen</a>
           </li>
           <li>
-            <a href="#huren" aria-label="Huren">Huren</a>
+            <a href="#huren">Huren</a>
           </li>
           <li>
-            <a href="#verkopen" aria-label="Verkopen">Verkopen</a>
+            <a href="#verkopen">Verkopen</a>
           </li>
         </ul>
         <ul class="nav-item">
@@ -82,7 +82,7 @@
                 fill="white"
               />
             </svg>
-            <a href="#myHome" aria-label="Home">My home</a>
+            <a href="#myHome">My home</a>
           </li>
           <li>
             <svg
@@ -97,7 +97,7 @@
                 fill="white"
               />
             </svg>
-            <a href="#favorite" aria-label="Favorite">Favorite</a>
+            <a href="#favorite">Favorite</a>
           </li>
           <li>
             <svg
@@ -124,133 +124,18 @@
                 fill="white"
               />
             </svg>
-            <a href="#profile" aria-label="Profile">Profile</a>
+            <a href="#profile">Profile</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="container">
-      <!-- Media gallery -->
-      <section class="media-viewer" aria-label="Media viewer">
-        <div class="media-gallery">
-          <article class="media-main">
-            <img
-              class="main-image"
-              src="assets/images/houtlaan-1.jpg"
-              alt="Hoofdafbeelding pand Houtlaan"
-            />
-            <form class="cta-media-main" action="#" method="get">
-              <button class="share">
-                <svg
-                  width="14"
-                  height="19"
-                  viewBox="0 0 14 19"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M11.4479 4.93739L7.55878 1.0483C7.42287 0.90286 7.23472 0.817412 7.03578 0.810781C6.83683 0.804149 6.64341 0.876878 6.49812 1.01295L2.60903 4.90203C2.31614 5.19493 2.31614 5.6698 2.60903 5.96269C2.90192 6.25559 3.3768 6.25559 3.66969 5.96269L6.27891 3.35347L6.27538 12.9928C6.28569 13.3946 6.60897 13.7179 7.01077 13.7282C7.42462 13.728 7.76005 13.3925 7.7603 12.9787L7.77798 3.38882L10.3872 5.99805C10.6801 6.29094 11.155 6.29094 11.4479 5.99805C11.7408 5.70515 11.7408 5.23028 11.4479 4.93739Z"
-                    fill="#0071B3"
-                  />
-                  <path
-                    d="M9.75 8.74999C9.75 9.1642 10.0858 9.49999 10.5 9.49999H12.5V17H1.5V9.49999H3.5C3.91421 9.49999 4.25 9.1642 4.25 8.74999C4.25 8.33577 3.91421 7.99999 3.5 7.99999H1.5C0.671573 7.99999 0 8.67156 0 9.49999V17C0 17.8284 0.671573 18.5 1.5 18.5H12.5C13.3284 18.5 14 17.8284 14 17V9.49999C14 8.67156 13.3284 7.99999 12.5 7.99999H10.5C10.0858 7.99999 9.75 8.33577 9.75 8.74999Z"
-                    fill="#0071B3"
-                  />
-                </svg>
-              </button>
-              <button class="like">
-                <svg
-                  width="18"
-                  height="18"
-                  viewBox="0 0 18 18"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M16.4999 1.93001C15.5604 1.02121 14.307 0.509113 12.9999 0.500011C11.9175 0.496365 10.8637 0.84763 9.99994 1.50001C9.62135 1.78479 9.28472 2.12142 8.99994 2.50001C8.71516 2.12142 8.37853 1.78479 7.99994 1.50001C7.13745 0.84389 6.08363 0.488617 4.99994 0.488617C3.91625 0.488617 2.86244 0.84389 1.99994 1.50001C1.37605 1.96302 0.869913 2.56637 0.522463 3.26127C0.175014 3.95617 -0.00398758 4.7231 -5.87676e-05 5.50001C-5.87676e-05 13 7.99994 17.5 8.99994 17.5C9.99994 17.5 17.9999 13 17.9999 5.50001C17.9998 4.83511 17.8671 4.1769 17.6096 3.5639C17.352 2.95091 16.9748 2.39544 16.4999 1.93001ZM8.99994 15.93C6.3171 14.6026 4.09961 12.4932 2.63994 9.88001C1.90832 8.53487 1.51694 7.03115 1.49994 5.50001C1.50026 4.69664 1.77695 3.91784 2.28355 3.29433C2.79015 2.67083 3.49583 2.24058 4.28212 2.07582C5.06842 1.91105 5.88746 2.0218 6.60175 2.38947C7.31605 2.75714 7.88212 3.35935 8.20494 4.09501C8.23494 4.16501 8.25994 4.24001 8.28994 4.31501C8.34018 4.46208 8.43516 4.58976 8.56158 4.68017C8.688 4.77057 8.83952 4.81918 8.99494 4.81918C9.15036 4.81918 9.30188 4.77057 9.4283 4.68017C9.55472 4.58976 9.6497 4.46208 9.69994 4.31501C9.72494 4.24001 9.75494 4.16501 9.78494 4.09501C10.1041 3.35322 10.6699 2.74461 11.3865 2.37235C12.1031 2.00008 12.9264 1.88705 13.7168 2.05243C14.5072 2.21781 15.2161 2.65142 15.7234 3.27976C16.2306 3.90809 16.505 4.6925 16.4999 5.50001C16.487 7.03963 16.0955 8.55242 15.3599 9.90501C13.9003 12.5182 11.6828 14.6276 8.99994 15.955V15.93Z"
-                    fill="#0071B3"
-                  />
-                </svg>
-              </button>
-            </form>
-            <p class="position-indicator">
-              <span class="current-position">1</span>
-              /
-              <span class="total-images">10</span>
-            </p>
-            <img />
-
-            <ul class="media-thumbnails">
-              <li>
-                <img src="assets/images/houtlaan-2.jpg" alt="Thumbnail 2" />
-              </li>
-              <li>
-                <img src="assets/images/houtlaan-3.jpg" alt="Thumbnail 3" />
-              </li>
-              <li>
-                <img src="assets/images/houtlaan-4.jpg" alt="Thumbnail 4" />
-              </li>
-              <li>
-                <img src="assets/images/houtlaan-5.jpg" alt="Thumbnail 5" />
-              </li>
-            </ul>
-          </article>
-        </div>
-        <!-- Product thumbnails -->
-        <ul class="product-thumbnails">
-          <li>
-            <img src="https://placehold.co/400" alt="Plattegrond" />
-            <a href="#" class="product-thumbnail-map">Plattegrond</a>
-          </li>
-
-          <li>
-            <img src="https://placehold.co/400" alt="360 Photos" />
-            <a href="#" class="product-thumbnail-360">360 Photos</a>
-          </li>
-
-          <li>
-            <img src="https://placehold.co/400" alt="Video" />
-            <a href="#" class="product-thumbnail-video">Video</a>
-          </li>
-
-          <li>
-            <img src="https://placehold.co/400" alt="3D Tour" />
-            <a href="#" class="product-thumbnail-tour">3D Tour</a>
-          </li>
-
-          <li>
-            <img src="https://placehold.co/400" alt="Brochure" />
-            <a href="#" class="product-thumbnail-brochure">Brochure</a>
-          </li>
-
-          <li>
-            <img src="https://placehold.co/400" alt="All Photos" />
-            <a href="#" class="product-thumbnail-media">All media</a>
-          </li>
-        </ul>
-
-      </section>
-
-      <!-- Property details -->
-      <section class="property-details" aria-label="Property details">
-        <p class="new">Nieuw</p>
-        <h1 id="property-details-title">Property details</h1>
-        <p>Houtlaan 1, Amsterdam</p>
-        <p>€ 850.000 k.k.</p>
-        <p>Oppervlakte: 120 m²</p>
-        <p>Perceelgrootte: 250 m²</p>
-      </section>
-
-      <!-- Property description -->
-      <section class="property-description" aria-label="Property description">
-        <h2 id="property-description-title">Omschrijving</h2>
-        <p>
-          Deze prachtige vrijstaande woning in Amsterdam biedt een moderne
-          uitstraling met veel lichtinval. De ruime woonkamer, moderne keuken en
-          grote tuin maken deze woning ideaal voor gezinnen. Gelegen in een
-          rustige buurt, op loopafstand van scholen en winkels.
-        </p>
-      </section>
+      <a href="/pages/detail.html" class="woning-kaart">
+        <img src="/assets/images/houtlaan-1.jpg" alt="Bekijk woning Houtlaan 1" />
+        <p class="woning-titel">Houtlaan 1, Amsterdam</p>
+        <p class="prijs">€ 850.000 k.k.</p>
+        <p class="grootte">Oppervlakte: 120 m² | Perceelgrootte: 250 m²</p>
+      </a>
     </main>
 
     <!-- Footer -->
