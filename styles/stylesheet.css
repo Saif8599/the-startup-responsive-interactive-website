@@ -5,6 +5,12 @@
   src: url("assets/fonts/ProximaNova.otf") format("woff");
 }
 
+/* Header */
+header {
+  background-color: orange;
+}
+
+/* Body */
 body {
   margin: 0;
   padding: 0;
@@ -39,6 +45,7 @@ body {
   --color-bright-blue: #64c1ed;
   --color-light-pink: #fde9eb;
   --color-light-green: #ebf6e3;
+  --color-orange: #f7b500;
   --color-pink: #de737d;
   --color-green: #599f7e;
 }
@@ -89,11 +96,6 @@ a {
   }
 }
 
-/* Header */
-header {
-  background-color: orange;
-}
-
 /* custom */
 
 .woning-kaart {
@@ -110,30 +112,26 @@ header {
   @media (min-width: 768px) {
     max-width: 300px;
   }
-}
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .woning-titel {
+    font-size: var(--font-size-m);
+    font-weight: bold;
+  }
+  .prijs {
+    color: #28a745;
+    font-size: var(--font-size-m);
+    font-weight: bold;
+  }
 
-.woning-kaart img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.woning-kaart:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.woning-titel {
-  font-size: var(--font-size-m);
-  font-weight: bold;
-}
-
-.prijs {
-  color: #28a745;
-  font-size: var(--font-size-m);
-  font-weight: bold;
-}
-
-.grootte {
-  font-size: var(--font-size-s);
-  color: #555;
+  .grootte {
+    font-size: var(--font-size-s);
+    color: #555;
+  }
 }
