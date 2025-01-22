@@ -9,72 +9,196 @@
   </head>
   <body>
     <div class="container">
-      <div class="media-titel">
-        <h1>Foto's</h1>
-        <span class="totale-images">10</span>
+      <!-- Action buttons -->
+      <div class="action-buttons">
+        <button class="action-button-like">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 18 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.4999 1.93001C15.5604 1.02121 14.307 0.509113 12.9999 0.500011C11.9175 0.496365 10.8637 0.84763 9.99994 1.50001C9.62135 1.78479 9.28472 2.12142 8.99994 2.50001C8.71516 2.12142 8.37853 1.78479 7.99994 1.50001C7.13745 0.84389 6.08363 0.488617 4.99994 0.488617C3.91625 0.488617 2.86244 0.84389 1.99994 1.50001C1.37605 1.96302 0.869913 2.56637 0.522463 3.26127C0.175014 3.95617 -0.00398758 4.7231 -5.87676e-05 5.50001C-5.87676e-05 13 7.99994 17.5 8.99994 17.5C9.99994 17.5 17.9999 13 17.9999 5.50001C17.9998 4.83511 17.8671 4.1769 17.6096 3.5639C17.352 2.95091 16.9748 2.39544 16.4999 1.93001ZM8.99994 15.93C6.3171 14.6026 4.09961 12.4932 2.63994 9.88001C1.90832 8.53487 1.51694 7.03115 1.49994 5.50001C1.50026 4.69664 1.77695 3.91784 2.28355 3.29433C2.79015 2.67083 3.49583 2.24058 4.28212 2.07582C5.06842 1.91105 5.88746 2.0218 6.60175 2.38947C7.31605 2.75714 7.88212 3.35935 8.20494 4.09501C8.23494 4.16501 8.25994 4.24001 8.28994 4.31501C8.34018 4.46208 8.43516 4.58976 8.56158 4.68017C8.688 4.77057 8.83952 4.81918 8.99494 4.81918C9.15036 4.81918 9.30188 4.77057 9.4283 4.68017C9.55472 4.58976 9.6497 4.46208 9.69994 4.31501C9.72494 4.24001 9.75494 4.16501 9.78494 4.09501C10.1041 3.35322 10.6699 2.74461 11.3865 2.37235C12.1031 2.00008 12.9264 1.88705 13.7168 2.05243C14.5072 2.21781 15.2161 2.65142 15.7234 3.27976C16.2306 3.90809 16.505 4.6925 16.4999 5.50001C16.487 7.03963 16.0955 8.55242 15.3599 9.90501C13.9003 12.5182 11.6828 14.6276 8.99994 15.955V15.93Z"
+              fill="#0071B3"
+            />
+          </svg>
+        </button>
+        <button
+          class="action-button-exit"
+          onclick="location.href='../pages/detail.html'"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            role="presentation"
+            viewBox="0 0 48 48"
+            class="m-2 size-[32px] text-neutral-50 lg:m-1 lg:size-11"
+          >
+            <path
+              d="M26.12 24l10.61-10.61a1.5 1.5 0 000-2.12 1.5 1.5 0 00-2.12 0L24 21.88 13.39 11.27a1.5 1.5 0 10-2.12 2.12L21.88 24 11.27 34.61a1.5 1.5 0 102.12 2.12L24 26.12l10.61 10.61a1.5 1.5 0 002.12 0 1.5 1.5 0 000-2.12z"
+            ></path>
+          </svg>
+        </button>
       </div>
 
-      <!-- Slide 1 -->
-      <article class="slide-show" id="img1">
-        <img src="../assets/images/houtlaan-1.jpg" alt="Afbeelding 1" />
-        <a href="#img8" class="prev"></a>
-        <a href="#img2" class="next"></a>
+      <!-- Media title -->
+      <div class="media-titel">
+        <h1>Foto's</h1>
+        <span class="totale-images">8</span>
+      </div>
+
+      <!-- Slide show -->
+      <article class="slide-container">
+        <!-- Slide 1 -->
+        <div class="slide-show" id="img1">
+          <img src="/assets/images/houtlaan-1.jpg" alt="Afbeelding 1" />
+          <a href="#img8" class="prev"></a>
+          <a href="#img2" class="next"></a>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide-show" id="img2">
+          <img src="/assets/images/houtlaan-2.jpg" alt="Afbeelding 2" />
+          <a href="#img1" class="prev"></a>
+          <a href="#img3" class="next"></a>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide-show" id="img3">
+          <img src="/assets/images/houtlaan-3.jpg" alt="Afbeelding 3" />
+          <a href="#img2" class="prev"></a>
+          <a href="#img4" class="next"></a>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide-show" id="img4">
+          <img src="/assets/images/houtlaan-4.jpg" alt="Afbeelding 4" />
+          <a href="#img3" class="prev"></a>
+          <a href="#img5" class="next"></a>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide-show" id="img5">
+          <img src="/assets/images/houtlaan-5.jpg" alt="Afbeelding 5" />
+          <a href="#img4" class="prev"></a>
+          <a href="#img6" class="next"></a>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="slide-show" id="img6">
+          <img src="/assets/images/houtlaan-6.jpg" alt="Afbeelding 6" />
+          <a href="#img5" class="prev"></a>
+          <a href="#img7" class="next"></a>
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="slide-show" id="img7">
+          <img src="/assets/images/houtlaan-7.jpg" alt="Afbeelding 7" />
+          <a href="#img6" class="prev"></a>
+          <a href="#img8" class="next"></a>
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="slide-show" id="img8">
+          <img src="/assets/images/houtlaan-8.jpg" alt="Afbeelding 8" />
+          <a href="#img7" class="prev"></a>
+          <a href="#img1" class="next"></a>
+        </div>
       </article>
 
-      <!-- Slide 2 -->
-      <article class="slide-show" id="img2">
-        <img src="../assets/images/houtlaan-2.jpg" alt="Afbeelding 2" />
-        <a href="#img1" class="prev"></a>
-        <a href="#img3" class="next"> </a>
+      <!-- All media -->
+      <article class="all-media">
+        <div class="thumbnail">
+          <a href="#img1"
+            ><img src="/assets/images/houtlaan-1.jpg" alt="Thumbnail 1"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img2"
+            ><img src="/assets/images/houtlaan-2.jpg" alt="Thumbnail 2"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img3"
+            ><img src="/assets/images/houtlaan-3.jpg" alt="Thumbnail 3"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img4"
+            ><img src="/assets/images/houtlaan-4.jpg" alt="Thumbnail 4"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img5"
+            ><img src="/assets/images/houtlaan-5.jpg" alt="Thumbnail 5"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img6"
+            ><img src="/assets/images/houtlaan-6.jpg" alt="Thumbnail 6"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img7"
+            ><img src="/assets/images/houtlaan-7.jpg" alt="Thumbnail 7"
+          /></a>
+        </div>
+        <div class="thumbnail">
+          <a href="#img8"
+            ><img src="/assets/images/houtlaan-8.jpg" alt="Thumbnail 8"
+          /></a>
+        </div>
       </article>
 
-      <!-- Slide 3 -->
-      <article class="slide-show" id="img3">
-        <img src="../assets/images/houtlaan-3.jpg" alt="Afbeelding 3" />
-        <a href="#img2" class="prev"></a>
-        <a href="#img4" class="next"></a>
-      </article>
-
-      <!-- Slide 4 -->
-      <article class="slide-show" id="img4">
-        <img src="../assets/images/houtlaan-4.jpg" alt="Afbeelding 4" />
-        <a href="#img3" class="prev"></a>
-        <a href="#img5" class="next"></a>
-      </article>
-
-      <!-- Slide 5 -->
-      <article class="slide-show" id="img5">
-        <img src="../assets/images/houtlaan-5.jpg" alt="Afbeelding 5" />
-        <a href="#img4" class="prev"></a>
-        <a href="#img6" class="next"></a>
-      </article>
-
-      <!-- Slide 6 -->
-      <article class="slide-show" id="img6">
-        <img src="../assets/images/houtlaan-6.jpg" alt="Afbeelding 6" />
-        <a href="#img5" class="prev"></a>
-        <a href="#img7" class="next"></a>
-      </article>
-
-      <!-- Slide 7 -->
-      <article class="slide-show" id="img7">
-        <img src="../assets/images/houtlaan-7.jpg" alt="Afbeelding 7" />
-        <a href="#img6" class="prev"></a>
-        <a href="#img8" class="next"></a>
-      </article>
-
-      <!-- Slide 8 -->
-      <article class="slide-show" id="img8">
-        <img src="../assets/images/houtlaan-8.jpg" alt="Afbeelding 8" />
-        <a href="#img7" class="prev"></a>
-        <a href="#img1" class="next"></a>
-      </article>
-
-      <p class="positie-indicator">
-        <span class="current-position">1</span>
-        /
-        <span class="totale-images">10</span>
-      </p>
+      <!-- Media navigation  -->
+      <ul class="media-navigation">
+        <li>
+          <p class="positie-indicator">
+            <span class="current-position">1</span>
+            /
+            <span class="totale-images">8</span>
+          </p>
+        </li>
+        <li>
+          <svg
+            width="20"
+            height="19"
+            viewBox="0 0 20 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M8.2506 -0.00292925H0.7506C0.651687 -0.002931 0.55375 0.0166329 0.462428 0.0546362C0.371106 0.0926395 0.288204 0.148332 0.218495 0.218506C0.148785 0.28868 0.0936448 0.371951 0.0562491 0.463523C0.0188534 0.555095 -5.9139e-05 0.65316 0.000600285 0.752071V7.25207C-0.00344245 7.35306 0.0129673 7.45382 0.048844 7.54831C0.0847208 7.64279 0.139325 7.72905 0.209375 7.8019C0.279426 7.87476 0.363479 7.9327 0.456485 7.97225C0.549492 8.0118 0.649533 8.03215 0.7506 8.03207H8.2506C8.44951 8.03207 8.64028 7.95305 8.78093 7.8124C8.92158 7.67175 9.0006 7.48098 9.0006 7.28207V0.782071C9.00534 0.680675 8.98944 0.579372 8.95388 0.484299C8.91831 0.389226 8.86382 0.302362 8.7937 0.228968C8.72358 0.155574 8.63929 0.0971779 8.54593 0.0573172C8.45258 0.0174565 8.35211 -0.00303939 8.2506 -0.00292925ZM1.5006 1.50207H7.5006V6.53207H1.5006V1.50207Z"
+              fill="#0071B3"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.750616 10.032H8.25062C8.44953 10.032 8.64029 10.111 8.78095 10.2517C8.9216 10.3923 9.00062 10.5831 9.00062 10.782V17.282C9.00062 17.4809 8.9216 17.6717 8.78095 17.8123C8.64029 17.953 8.44953 18.032 8.25062 18.032H0.750616C0.651277 18.032 0.552927 18.0123 0.461275 17.974C0.369623 17.9356 0.286495 17.8795 0.216719 17.8088C0.146943 17.7381 0.091908 17.6542 0.0548104 17.5621C0.0177129 17.4699 -0.000708523 17.3713 0.000615991 17.272V10.772C0.00324521 10.5748 0.083422 10.3866 0.22379 10.2481C0.364159 10.1096 0.553424 10.032 0.750616 10.032ZM7.50062 11.532H1.50062V16.532H7.50062V11.532Z"
+              fill="#0071B3"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.7506 10.032H19.2506C19.4495 10.032 19.6403 10.111 19.7809 10.2517C19.9216 10.3923 20.0006 10.5831 20.0006 10.782V17.282C20.0006 17.4809 19.9216 17.6717 19.7809 17.8123C19.6403 17.953 19.4495 18.032 19.2506 18.032H11.7506C11.5517 18.032 11.3609 17.953 11.2203 17.8123C11.0796 17.6717 11.0006 17.4809 11.0006 17.282V10.782C11.0006 10.5831 11.0796 10.3923 11.2203 10.2517C11.3609 10.111 11.5517 10.032 11.7506 10.032ZM18.5006 11.532H12.5006V16.532H18.5006V11.532Z"
+              fill="#0071B3"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M11.7506 0.0319829H19.2506C19.4495 0.0319829 19.6403 0.111 19.7809 0.251653C19.9216 0.392305 20.0006 0.58307 20.0006 0.781983V7.28198C20.0006 7.4809 19.9216 7.67166 19.7809 7.81231C19.6403 7.95296 19.4495 8.03198 19.2506 8.03198H11.7506C11.6508 8.032 11.5521 8.01212 11.4601 7.97349C11.3681 7.93487 11.2847 7.87828 11.2149 7.80704C11.1451 7.7358 11.0901 7.65134 11.0533 7.5586C11.0165 7.46587 10.9986 7.36673 11.0006 7.26698V0.766983C11.0045 0.570681 11.0853 0.383748 11.2255 0.246323C11.3657 0.108899 11.5543 0.0319436 11.7506 0.0319829ZM18.5006 1.53198H12.5006V6.53198H18.5006V1.53198Z"
+              fill="#0071B3"
+            />
+          </svg>
+          <a href="../pages/media.html" class="view-all-media">All media</a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
