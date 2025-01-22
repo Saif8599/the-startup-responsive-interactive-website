@@ -1,24 +1,50 @@
-Ontwerp en maak een responsive website voor een startup.
+# Design Challenge: Rebuild the Funda Listing Detail Page
 
-De instructies voor deze opdracht staan in: [INSTRUCTIONS.md](https://github.com/fdnd-task/the-startup-responsive-interactieve-website/blob/main/docs/INSTRUCTIONS.md)
+## Inhoudsopgave
 
-# Titel
-Media Viewer rebuild
+- [Over Funda](#over-funda)
+- [Wat ik heb gedaan](#wat-ik-heb-gedaan)
+- [Eisen](#eisen)
+- [Kenmerken](#kenmerken)
+- [Code Conventions](#code-conventions)
+  - [Ademruimte en inspringen](#ademruimte-en-inspringen)
+  - [Volgorde en nesten van CSS selectors](#volgorde-en-nesten-van-css-selectors)
+  - [Nesten van media queries](#nesten-van-media-queries)
+  - [Naamgeving](#naamgeving)
+- [Licentie](#licentie)
 
-## Beschrijving
-Overzicht van de Opdracht
-Het doel van deze opdracht is het herbouwen van de Media Viewer binnen de Listing Detail Page (LDP). De nadruk ligt op het ontwikkelen van een layout met semantische en toegankelijke HTML en CSS. JavaScript kan optioneel worden gebruikt, maar interactie van elementen is niet vereist.
+## Over Funda
 
-De layout moet ontworpen worden volgens een mobile-first aanpak, met responsive breakpoints voor mobiel, tablet en desktop.
+Funda is een toonaangevende organisatie in Nederland, gevestigd in Amsterdam, die onroerend goed op de Nederlandse markt aanbiedt via haar website **funda.nl**. Met ongeveer 68 miljoen bezoeken per maand (waarvan 4 miljoen unieke bezoekers), is funda.nl een van de drukst bezochte woningwebsites in Nederland. De website biedt een uitgebreid overzicht van huizen die te koop staan, gepresenteerd door vastgoedmakelaars.
+
+Funda speelt een belangrijke rol in een van de grootste beslissingen in iemands leven: het kopen of verkopen van een woning. Dit proces kan zowel spannend als uitdagend zijn, en Funda streeft ernaar om de gebruikers zoveel mogelijk te ondersteunen.
+
+## Wat ik heb gedaan
+
+In dit project heb ik de **Listing Detail Page (LDP)** van Funda herbouwd. Dit was een praktijkopdracht waarin ik verschillende vaardigheden heb toegepast, zoals layout, responsive design en toegankelijkheid.
+
+- **HTML en CSS**: Ik heb de complete pagina opgebouwd met **semantische HTML** en **CSS**. Alle inhoud is handmatig toegevoegd (geen externe API's of databases gebruikt).
+- **Responsief ontwerp**: De pagina is volledig responsief gemaakt, met gebruik van **media queries** voor mobiel, tablet en desktop.
+- **Toegankelijkheid**: Er is speciale aandacht besteed aan de toegankelijkheid van de website door het gebruik van semantische HTML en het implementeren van juiste **ARIA-attributen** waar nodig.
+- **Geen JavaScript**: Hoewel JavaScript niet verplicht was, heb ik ervoor gekozen om dit niet te gebruiken, omdat het niet noodzakelijk was voor deze opdracht.
+
+## Eisen
+
+- Volg het **Figma ontwerp** voor de layout.
+- Je kunt een beetje creatief zijn als je bepaalde onderdelen wilt verbeteren, maar blijf binnen de grenzen van het ontwerp.
+- Zorg ervoor dat de pagina op verschillende apparaten goed werkt door gebruik te maken van **media queries**.
+- De code moet **toegankelijk** zijn, dus gebruik semantische HTML-elementen en geschikte ARIA-attributen waar nodig.
+- **De media viewer moet correct werken**: Zorg ervoor dat de gebruiker door de media kan navigeren door middel van miniaturen of andere interactieve elementen.
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+
+Voor dit project heb ik **HTML** en **CSS** gebruikt om de layout en de structuur van de pagina te bouwen. De HTML is opgebouwd met semantische elementen om de toegankelijkheid en leesbaarheid te verbeteren, zoals `<header>`, `<footer>`, en `<section>` tags. CSS is gebruikt voor de styling, waarbij een **mobile-first** benadering is gevolgd en **media queries** zijn toegepast om de pagina responsive te maken voor verschillende schermformaten (mobiel, tablet, desktop). 
+
+Er is geen JavaScript gebruikt, omdat de focus ligt op de layout en styling. Interactieve elementen zoals de media viewer werken zonder de noodzaak van JavaScript, door gebruik te maken van CSS voor overgangseffecten en visuele interactie.
 
 ## Code Conventions
 
 Hieronder worden de codeconventies beschreven die zijn toegepast om de code overzichtelijk en onderhoudbaar te houden.
-
----
 
 ### Ademruimte en inspringen
 - **Inspringen**: 2 spaties of 1 tab per niveau voor consistentie.
@@ -32,7 +58,7 @@ Hieronder worden de codeconventies beschreven die zijn toegepast om de code over
   <span class="totale-images">10</span>
 </div>
 ```
-
+---
 ### Volgorde en nesten van CSS selectors
 
 **Volgorde van selectors**:
@@ -77,6 +103,7 @@ body {
   padding: 10px;
 }
 ```
+---
 ### Nesten van media queries
 
 Om de CSS overzichtelijker en onderhoudbaar te maken, zijn media queries genest bij de betreffende selectors. Dit zorgt ervoor dat alle styling van een element, inclusief de responsive aanpassingen, op één plek te vinden is.
@@ -116,6 +143,7 @@ Om de CSS overzichtelijker en onderhoudbaar te maken, zijn media queries genest 
   }
 }
 ```
+---
 ### Naamgeving
 
 Bij het schrijven van HTML, CSS, en JavaScript is consistente en beschrijvende naamgeving cruciaal voor leesbaarheid en onderhoudbaarheid. Hier zijn de conventies die we hebben gevolgd, inclusief voorbeelden en richtlijnen.
@@ -136,9 +164,6 @@ Bij het schrijven van HTML, CSS, en JavaScript is consistente en beschrijvende n
   </article>
 </section>
 ```
-
-## Bronnen
-
 ## Licentie
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
